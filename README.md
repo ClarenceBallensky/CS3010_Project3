@@ -6,7 +6,7 @@ Locate roots using the Bisection, Newton-Raphson, Secant, False-Position, and Mo
     #2   f(x) = x + 10 – xcosh(50/x)
         Has 1 root in range [120, 130]: 126.632
 
-
+<pre>
 Sample Output
 
 n           a                b               c               f(a)            f(b)            f(c)            error
@@ -211,3 +211,5 @@ n            x_i             x_i+1           f(x_i)          f(x_i+1)        f'(
 0           130.000          126.504         0.265           -0.010          0.077           0.028
 1           126.504          126.634         -0.010          0.000           0.081           0.001
 Modified Secant Method: The root 126.634 has been found with a starting guess of x = 130.000 for the function #2 in 2 iterations.
+
+</pre>
