@@ -1,4 +1,4 @@
-Locate roots using the Bisection, Newton-Raphson, Secant, False-Position, and Modified Secant Methods
+This project locates the roots of the following two hard-coded functions using the Bisection, Newton-Raphson, Secant, False-Position, and Modified Secant Methods:
 
     #1   f(x) = 2*(x)^3 – 11.7*(x)^2 + 17.7*(x) – 5
         Has 3 roots in range [0,4]: 0.365, 1.922, 3.563
@@ -6,8 +6,9 @@ Locate roots using the Bisection, Newton-Raphson, Secant, False-Position, and Mo
     #2   f(x) = x + 10 – xcosh(50/x)
         Has 1 root in range [120, 130]: 126.632
 
+
+Sample output:
 <pre>
-Sample Output
 
 n           a                b               c               f(a)            f(b)            f(c)            error
 ------------------------------------------------------------------------------------------------------------------
